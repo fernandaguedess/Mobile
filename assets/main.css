@@ -1,0 +1,19 @@
+.main {
+
+    background-color: #3b3737;
+}
+
+.thumb{
+
+    color: white;
+    border-radius: 50%;
+
+}
+
+#header {
+    color: white;
+}
+
+img {
+    border-radius: 50%;
+  }
