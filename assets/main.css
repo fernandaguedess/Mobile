@@ -6,14 +6,10 @@
     border-radius: 50%;
 }
 
-.thumb{
+#button{
 
-    color: white;
     border-radius: 10%;
 
-}
-.thumb .button {
-    border-radius: 50%;
 }
 
 #header {
@@ -21,7 +17,7 @@
 }
 
 #image {
-    border-radius: 50%;
+    border-radius: 10%;
   }
 
 body {
