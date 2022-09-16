@@ -1,16 +1,49 @@
 .main {
 
     background-color: #000000;
+    
 }
+.thumb{
+    position: relative;
+    width: 50%;
+
+}
+
+.thumb img {
+    width: 100%;
+    height: auto;
+  }
+
 .main-content #image {
     border-radius: 50%;
 }
 
 #button{
 
-    border-radius: 10%;
+    border-radius: 50%;
 
 }
+
+.thumb .btn {
+    position: absolute;
+    top: 68%;
+    left: 170%;
+    
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 1px 1px;
+    border: none;
+    cursor: pointer;
+    border-radius: 100%;
+  }
+  
+  .thumb .btn:hover {
+    background-color: black
+  }
+
 
 #header {
     color: white;
@@ -18,8 +51,13 @@
 
 #image {
     border-radius: 10%;
+    
   }
 
 body {
     align-items: center;
+}
+
+h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
